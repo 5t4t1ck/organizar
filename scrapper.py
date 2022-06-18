@@ -1,7 +1,7 @@
 import requests # python3 -m pip install requests beautifulsoup4
 from bs4 import BeautifulSoup
 
-url = "https://www.seek.co.nz/python-jobs?salaryrange=100000-999999&salarytype=annual"
+url = "https://www.seek.co.nz/python-jobs?salaryrange=50-999999&salarytype=hourly"
 
 if "__main__" == __name__:
     page = requests.get(url)
