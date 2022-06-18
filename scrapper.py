@@ -29,3 +29,6 @@ if "__main__" == __name__:
         except Exception as e:
             print("Exception: {}".format(e))
             pass
+
+# Para almacenar en un archivo 
+# python3 scrapper.py >> jobs.txt
