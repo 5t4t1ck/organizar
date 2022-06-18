@@ -1,7 +1,7 @@
 import requests # python3 -m pip install requests beautifulsoup4
 from bs4 import BeautifulSoup
 
-url = "https://www.seek.co.nz/python-jobs?salaryrange=50-999999&salarytype=hourly"
+url = "https://www.seek.co.nz/python-jobs-in-education-training?salaryrange=30000-999999&salarytype=annual"
 
 if "__main__" == __name__:
     page = requests.get(url)
@@ -29,6 +29,3 @@ if "__main__" == __name__:
         except Exception as e:
             print("Exception: {}".format(e))
             pass
-
-# Para almacenar en un archivo 
-# python3 scrapper.py >> jobs.txt
